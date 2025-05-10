@@ -5,7 +5,7 @@ import "@bedrock_org/passport/dist/style.css";
 const BedrockProvider = ({ children }) => (
   <BedrockPassportProvider
     baseUrl="https://api.bedrockpassport.com"
-    authCallbackUrl="http://localhost:3000/auth/callback"
+    authCallbackUrl="https://emoji-chain-l1awjdctw-subahan-ciccadas-projects.vercel.app/auth/callback"
     tenantId="orange-wiiv944tz5"
     subscriptionKey="c37becf8c06040a880d560e9c009051a"
   >
